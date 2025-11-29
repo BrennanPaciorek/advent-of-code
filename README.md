@@ -15,6 +15,7 @@ Root directory for advent of code
 the root Justfile will read from `.env` for `SESSION_COOKIE`. `SESSION_COOKIE` should be an AoC session cookie:
 ```
 SESSION_COOKIE=<aoc-session-cookie>
+AOC_YEAR=<aoc-year>
 ```
 
 ## Creating a crate for a challenge

@@ -2,7 +2,7 @@ set dotenv-filename := ".env"
 
 # get input from day (int 1-25)
 get-input day:
-    curl -b "session=$SESSION_COOKIE" https://adventofcode.com/2024/day/{{ day }}/input
+    curl -b "session=$SESSION_COOKIE" "https://adventofcode.com/${AOC_YEAR}/day/{{ day }}/input"
 
 # Start challenge for day (int 1-25). Creates workspace and fetches input.
 start-day day:
