@@ -1,4 +1,4 @@
-# AOC 2024 - Rust
+# AOC - Rust
 Root directory for advent of code
 
 ## Prerequisites
