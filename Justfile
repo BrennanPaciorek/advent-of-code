@@ -14,4 +14,4 @@ start-day day:
     mkdir $CRATE_NAME/files
     touch $CRATE_NAME/files/sample.txt
     just get-input {{day}} > $CRATE_NAME/files/input.txt
-    xdg-open https://adventofcode.com/2024/day/{{ day }}
+    xdg-open https://adventofcode.com/${AOC_YEAR}/day/{{ day }}
